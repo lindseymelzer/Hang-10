@@ -1,0 +1,257 @@
+/*** sectioning elements ***/
+
+body {
+  background-color: #333333;
+
+
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+nav {
+ color: #000000;
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  font-family: 'Barrio', cursive;
+  color: #d9d9d9;
+}
+
+h2 {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  height: 25px;
+}
+
+h3 {
+  color: #fff;
+  font-family: 'Barrio', cursive;
+}
+
+h4 {
+  color: #fff;
+  font-family: 'News Cycle', sans-serif;
+  height: 15px;
+  font-size: 18px;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+  color: #fff;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 15px;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+  font-size: 20px;
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img  {
+
+}
+
+
+/*** link styles ***/
+
+a:link {
+  color: #fff;
+  font-family: 'News Cycle', sans-serif;
+}
+
+a:visited {
+  color: #fff;
+  font-family: 'News Cycle', sans-serif;
+}
+
+a:hover {
+  color: #fff;
+  font-family: 'News Cycle', sans-serif;
+}
+
+a:active {
+  color: #fff;
+  font-family: 'News Cycle', sans-serif;
+}
+
+a.social:link,
+a.social:visited {
+  font-size: 30px;
+
+}
+
+a.social:hover,
+a.social:active {
+}
+
+
+/* ===============================================
+    Odin componet overrides
+   ===============================================*/
+
+
+/* navbar */
+ .navbar {
+   background-color: #d9d9d9;
+ }
+
+ .navbar-brand {
+   color;
+   font-family:;
+ }
+
+.navbar-menu a:link,
+.navbar-menu a:visited {
+  color:#333333;
+  font-family: 'Barrio', cursive;
+}
+
+.navbar-menu a:hover,
+.navbar-menu a:active {
+  border-bottom: 3px solid ;
+  text-decoration: none;
+}
+
+.coral-package{
+  background-image: url(../images/coral.jpg);
+  background-size: cover;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 23px;
+  min-height: 400px;
+}
+
+.gnarly-package{
+  background-image: url(../images/surfboard_package.jpg);
+  background-size: cover;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 23px;
+  min-height: 400px;
+}
+
+.seaturtle-package{
+  background-image: url(../images/sea_turtle.jpg);
+  background-size: cover;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 23px;
+  min-height: 400px;
+}
+
+.seaturtle-package p {
+  font-size: 23px;
+}
+
+.gnarly-package p {
+  font-size: 23px;
+}
+
+.coral-package p {
+  font-size: 23px;
+}
+
+.info{
+  max-width: 60%;
+  text-align: center;
+}
+.button-secondary{
+  background: transparent;
+  color: #fff;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 18px;
+  border-width: medium;
+  border-color: #fff;
+}
+.button-secondary:hover{
+  color: #000;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 18px;
+  border-width: medium;
+  border-color: #fff;
+}
+
+.divider{
+  border-right: 1px solid #fff;
+}
+
+@media (max-width: 479px){
+  .seaturtle-package h2{
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 479px){
+  .coral-package h2{
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 479px){
+  .gnarly-package h2{
+    font-size: 23px;
+  }
+}
+
+hr {
+    border: 0;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
