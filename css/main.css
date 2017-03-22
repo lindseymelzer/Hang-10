@@ -58,17 +58,24 @@ h4 {
 }
 
 h5 {
-
+  color: #fff;
+  font-family: 'Barrio', cursive;
+  margin-bottom: auto;
 }
 
 h6 {
-
+  color: #fff;
+  font-family: 'Barrio', cursive;
+  font-size: 40px;
+  line-height: normal;
+  margin-top: auto;
 }
 
 p {
   color: #fff;
   font-family: 'News Cycle', sans-serif;
   font-size: 15px;
+  line-height: 30px;
 }
 
 blockquote {
@@ -88,19 +95,27 @@ li {
 }
 
 table {
+  color: #fff;
+  border: 3px;
 
+}
+
+caption {
+  color: #fff;
+  border-width: thick;
 }
 
 tr {
-
+  color: #fff;
+  font-family: 'News Cycle', sans-serif;
 }
 
 th {
-
+  color: #fff;
 }
 
 td {
-
+  color: #fff;
 }
 
 
